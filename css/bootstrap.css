@@ -2165,8 +2165,8 @@ progress {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+  
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
@@ -2650,8 +2650,8 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
-  width: 100%;
+  align-items:stretch;
+  width: 70%;
 }
 .input-group > .form-control,
 .input-group > .form-select {
@@ -3208,13 +3208,14 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
+  color: #ffffff;
   background: #B68C5A;
   border-color: #6c757d;
+  width: 100px;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
+  background-color:#B68C5A;
   border-color: #6c757d;
 }
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
@@ -4420,7 +4421,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color:#F3F3F3;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4471,8 +4472,9 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background:#F3F3F3;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -5922,6 +5924,7 @@ textarea.form-control-lg {
   right: 15%;
   bottom: 1.25rem;
   left: 15%;
+  top:30%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
